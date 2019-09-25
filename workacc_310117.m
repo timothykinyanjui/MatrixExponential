@@ -4,6 +4,10 @@
 clearvars
 % mydefaults
 
+% Add Expv and newHigham to search path
+addpath(genpath('Expv'))
+addpath(genpath('newHigham'))
+
 % Number of people in household - this also determines the matrix size
 NN = [10]; % Each generates a matrix of size 66, 496 and 5050 respectively
 
